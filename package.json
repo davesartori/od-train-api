@@ -1,0 +1,28 @@
+{
+  "name": "od-train-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha api/**/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\"",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davesartori/od-train-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "express": "^4.14.0",
+    "hbs": "^4.0.0",
+    "od-train-data": "file:///Users/Dave/Documents/projects/nodetraining/odecee/od-train-data",
+    "od-train-service": "file:///Users/Dave/Documents/projects/nodetraining/odecee/od-train-service"
+  },
+  "bugs": {
+    "url": "https://github.com/davesartori/od-train-api/issues"
+  },
+  "homepage": "https://github.com/davesartori/od-train-api#readme"
+}
